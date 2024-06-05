@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b167439577274a319ecce40b4d3348b7, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier: 
+  _playerCamSettings:
+    _offSet: 13.57
+    _panAngle: 57.43
+  _enemySpawnerSettings:
+    _enemyPrefab: {fileID: 8012931517789951045, guid: 28c674a479cf9d24bb0343986385945f, type: 3}
+    _enemyCount: 50
+  _baitSpawnerSettings:
+    _terrainSize: {x: 100, y: 100}
+    _initBaitCount: 100
+    _baitSpawnFreq: 1
+    _baitPrefab: {fileID: 6079665271796391589, guid: c1df0ef2902a5b841819a8c7f1fe25fa, type: 3}
+    _spawnOffSetY: 0.25
+  _playerPathSetterSettings:
+    _playerSpeed: 15
